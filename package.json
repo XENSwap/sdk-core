@@ -8,7 +8,7 @@
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/Xen-chain/sdk-core.git",
+  "repository": "https://github.com/xenswap/sdk-core.git",
   "keywords": [
     "uniswap",
     "ethereum"
