@@ -145,6 +145,17 @@ const BASE_GOERLI_ADDRESSES: ChainAddresses = {
   swapRouter02Address: '0x8357227D4eDc78991Db6FDB9bD6ADE250536dE1d'
 }
 
+// XEN Testnet v3 addresses
+const XEN_TESTNET_ADDRESSES: ChainAddresses = {
+  v3CoreFactoryAddress: "0x02E2725e3375FEed941f71Bf6b5A9A04d5881FeF",
+  multicallAddress: "0xb616Bf009e9eC689B66901DF679C3D325E67A82e",
+  tickLensAddress: "0x84163AF012159A41e4aB7965a5cF193d8fc2d6f6",
+  nonfungiblePositionManagerAddress: "0x37b5190311D05AF4E7FebcF3b355C5b690b6Df21",
+  v3MigratorAddress: "0x8AF7F1a3f112D74675EC8a62aF2218d6dC9c19A0",
+  quoterAddress: "0x649fa15B4f76899b02Ae764Db779ddc2F10eaB2D",
+  swapRouter02Address: "0xc4B5Ffa9DF22B9623fBaB769f05701a7B3a56Bb1"
+}
+
 export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses> = {
   [ChainId.MAINNET]: MAINNET_ADDRESSES,
   [ChainId.OPTIMISM]: OPTIMISM_ADDRESSES,
@@ -160,7 +171,8 @@ export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses>
   [ChainId.SEPOLIA]: SEPOLIA_ADDRESSES,
   [ChainId.AVALANCHE]: AVALANCHE_ADDRESSES,
   [ChainId.BASE]: BASE_ADDRESSES,
-  [ChainId.BASE_GOERLI]: BASE_GOERLI_ADDRESSES
+  [ChainId.BASE_GOERLI]: BASE_GOERLI_ADDRESSES,
+  [ChainId.XEN_TESTNET]: XEN_TESTNET_ADDRESSES
 }
 
 /* V3 Contract Addresses */
