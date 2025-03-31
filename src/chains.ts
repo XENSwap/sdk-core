@@ -18,7 +18,7 @@ export enum ChainId {
   BASE = 8453,
 
   // XEN
-  XEN_TESTNET = 1997
+  XEN_TESTNET = 9899
 }
 
 export const SUPPORTED_CHAINS = [

@@ -147,13 +147,13 @@ const BASE_GOERLI_ADDRESSES: ChainAddresses = {
 
 // XEN Testnet v3 addresses
 const XEN_TESTNET_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: "0x02E2725e3375FEed941f71Bf6b5A9A04d5881FeF",
-  multicallAddress: "0xb616Bf009e9eC689B66901DF679C3D325E67A82e",
-  tickLensAddress: "0x84163AF012159A41e4aB7965a5cF193d8fc2d6f6",
-  nonfungiblePositionManagerAddress: "0x37b5190311D05AF4E7FebcF3b355C5b690b6Df21",
-  v3MigratorAddress: "0x8AF7F1a3f112D74675EC8a62aF2218d6dC9c19A0",
-  quoterAddress: "0x649fa15B4f76899b02Ae764Db779ddc2F10eaB2D",
-  swapRouter02Address: "0xc4B5Ffa9DF22B9623fBaB769f05701a7B3a56Bb1"
+  v3CoreFactoryAddress: "0x5d2Ec8e1Ec2730624630159061c2D159c198d9c3",
+  multicallAddress: "0x50B63C83Ec4639D422714F1f540157829C46ff40",
+  tickLensAddress: "0x3011EC05CD8E771661A640a07369908EFcd01E37",
+  nonfungiblePositionManagerAddress: "0x4D2B0A8d57CC849bC11C3a241dbA965B3bb1A3C2",
+  v3MigratorAddress: "0x76155721F11743275EDCAF0a2b66616c036f2397",
+  quoterAddress: "0xd324E6A20f751ee776E45B5E5EA4F97C3499351C",
+  swapRouter02Address: "0x22c7d63A3Cc57233f197782C9B3dCf503EA64D9d"
 }
 
 export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses> = {
